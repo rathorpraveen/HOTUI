@@ -27,7 +27,7 @@ const main = async () => {
     script = script.concat(' -suite '+'"'+ suite +'"')
     let tempDir = os.tmpdir();
 	  console.log("@@@@@@@@@@@@ temp dir "+tempDir);
-	  let filePath = path.join(tempDir, uuidV4() + '.ps1');
+	  let filePath = path.join(tempDir, suite + '.ps1');
 	  await fs.writeFileSync(
             filePath,
             script, 
