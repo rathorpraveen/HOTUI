@@ -6,7 +6,6 @@ const url = require("url");
 const axios = require("axios");
 const os = require('os');
 const fs = require('fs');
-const path = require('path');
 var uuidV4 = require('uuid/v4');
 
 const main = async () => {
