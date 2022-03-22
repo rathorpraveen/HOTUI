@@ -1,9 +1,7 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-const urlencode = require("urlencode");
 const path = require("path");
-const url = require("url");
-const axios = require("axios");
+
 const os = require('os');
 const fs = require('fs');
 var uuidV4 = require('uuid/v4');
