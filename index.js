@@ -4,7 +4,8 @@ const path = require("path");
 
 const os = require('os');
 const fs = require('fs');
-var uuidV4 = require('uuid/v4');
+//var uuidV4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 
 const main = async () => {
   try {
