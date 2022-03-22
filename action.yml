@@ -1,0 +1,21 @@
+name: 'HOT-WebUI Action'
+description: 'HOT-WebUI Action'
+inputs:
+  productpath:
+    description: 'productpath'
+    required: true
+  imshared:
+    description: 'imshared'
+    required: true
+  workspace:
+    description: 'workspace'
+    required: true
+  project:
+    description: 'Project'
+    required: true
+  suite:
+    description: 'suite'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
